@@ -3947,6 +3947,16 @@ This journey was an incredible opportunity to expand my knowledge, exchange idea
     document.getElementById('downloadBtn').style.display = "none";
   }
 </script>
+<title>Protected Page</title>
+  <script type="text/javascript">
+    var password = "1234ff1234"; // Change this to your desired password
+
+    var userInput = prompt("Please enter the password:");
+    if (userInput !== password) {
+      alert("Incorrect password. You are not authorized.");
+      window.location.href = "https://eyasinalibd.github.io/"; // Redirect if incorrect
+    }
+  </script>
     </body>
 
 </html>
